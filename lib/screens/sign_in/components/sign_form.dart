@@ -3,6 +3,7 @@ import 'package:flutter_way/components/custom_suffix_icon.dart';
 import 'package:flutter_way/components/default_button.dart';
 import 'package:flutter_way/components/form_error.dart';
 import 'package:flutter_way/screens/forgot_password/forgot_password_screen.dart';
+import 'package:flutter_way/screens/login_sucess/login_sucess_screen.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
@@ -70,6 +71,7 @@ class _SignFormState extends State<SignForm> {
             press: () {
               if (_formkey.currentState.validate()) {
                 _formkey.currentState.save();
+                Navigator.pushNamed(context, LoginSucessScreen.routeName);
               }
             },
           )
