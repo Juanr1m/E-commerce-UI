@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_way/components/no_account_text.dart';
-
 import 'package:flutter_way/components/social_card.dart';
-import 'package:flutter_way/constants.dart';
-import 'package:flutter_way/screens/forgot_password/forgot_password_screen.dart';
-
 import 'package:flutter_way/screens/sign_in/components/sign_form.dart';
-
 import 'package:flutter_way/size_config.dart';
 
 class Body extends StatelessWidget {
@@ -24,9 +19,7 @@ class Body extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: [
-                SizedBox(
-                  height: SizeConfig.screenHeight * 0.04,
-                ),
+                SizedBox(height: SizeConfig.screenHeight * 0.04),
                 Text(
                   "Welcome Back",
                   style: TextStyle(
@@ -38,13 +31,9 @@ class Body extends StatelessWidget {
                   "Sign in with your email and password \nor continue with social media",
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(
-                  height: SizeConfig.screenHeight * 0.08,
-                ),
+                SizedBox(height: SizeConfig.screenHeight * 0.08),
                 SignForm(),
-                SizedBox(
-                  height: SizeConfig.screenHeight * 0.08,
-                ),
+                SizedBox(height: SizeConfig.screenHeight * 0.08),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -62,9 +51,7 @@ class Body extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(
-                  height: getProportionateScreenHeight(20),
-                ),
+                SizedBox(height: getProportionateScreenHeight(20)),
                 NoAccountText()
               ],
             ),

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_way/components/custom_suffix_icon.dart';
-import 'package:flutter_way/components/default_button.dart';
 import 'package:flutter_way/components/social_card.dart';
 import 'package:flutter_way/constants.dart';
 import 'package:flutter_way/screens/sign_up/components/sign_up_form.dart';

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_way/components/custom_suffix_icon.dart';
 import 'package:flutter_way/constants.dart';
-import 'package:flutter_way/screens/splash/components/body.dart';
 import 'package:flutter_way/size_config.dart';
 
 import 'complete_profile_form.dart';
