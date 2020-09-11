@@ -38,6 +38,7 @@ class Body extends StatelessWidget {
                   child: AspectRatio(
                     aspectRatio: 1.2,
                     child: Container(
+                      padding: EdgeInsets.all(getProportionateScreenWidth(20)),
                       decoration: BoxDecoration(
                         color: kSecondaryColor.withOpacity(0.1),
                         borderRadius: BorderRadius.circular(15),
