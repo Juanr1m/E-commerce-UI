@@ -17,7 +17,7 @@ class _SignUpFormState extends State<SignUpForm> {
   final _formKey = GlobalKey<FormState>();
   String email;
   String password;
-  String confirm_password;
+  String confirmPassword;
   final List<String> errors = [];
   @override
   Widget build(BuildContext context) {

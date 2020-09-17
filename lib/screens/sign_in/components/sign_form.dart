@@ -25,7 +25,6 @@ class _SignFormState extends State<SignForm> {
   var kPrimaryColor;
   @override
   Widget build(BuildContext context) {
-    var formError = FormError;
     return Form(
       key: _formkey,
       child: Column(
