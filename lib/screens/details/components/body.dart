@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_way/constants.dart';
 
 import 'package:flutter_way/models/product.dart';
 import 'package:flutter_way/screens/details/components/product_description.dart';
-import 'package:flutter_way/screens/details/components/product_icon_btn.dart';
 import 'package:flutter_way/screens/details/components/top_rounded_rectangle.dart';
 import 'package:flutter_way/screens/splash/components/body.dart';
 import 'package:flutter_way/size_config.dart';
